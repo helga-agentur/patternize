@@ -9,7 +9,7 @@ from Twig based templates. The resulting documentation can be served from any st
 
 ## Installation
 - Requires Node.js ≥ 14
-- `npm i -g @joinbox/patternize` (use `-g` flag only if you want to execute patternize as a 
+- `npm i -g @helga-agency/patternize` (use `-g` flag only if you want to execute patternize as a 
   command line tool in global scope)
 
 
@@ -20,7 +20,7 @@ from Twig based templates. The resulting documentation can be served from any st
 - WIP: Either use via command line: `patternize -i path/to/entry/file.yml -o path/to/output/directory -f`
 - Or use in a node script (e.g. via task runner): 
   ```javascript
-  import patternize from '@joinbox/patternize';
+  import patternize from '@helga-agency/patternize';
   patternize({
     entryFilePath: 'path/to/entry/file.yml',
     outputDirectoryPath: 'path/to/output/directory',
