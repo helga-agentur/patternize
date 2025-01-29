@@ -1,5 +1,5 @@
 {
-  "name": "@joinbox/patternize",
+  "name": "@helga-agency/patternize",
   "version": "0.1.9",
   "description": "A small Node.js script that generates a static **pattern library** or **design system documentation** from Twig based templates. The resulting documentation can be served from any static file server.",
   "main": "src/index.mjs",
@@ -30,7 +30,7 @@
     "twig": "^1.15.4"
   },
   "devDependencies": {
-    "@joinbox/eslint-config-joinbox": "^1.0.9",
+    "@helga-agency/eslint-config-joinbox": "^1.0.9",
     "ava": "^3.15.0",
     "dir-compare": "^3.3.0"
   }
